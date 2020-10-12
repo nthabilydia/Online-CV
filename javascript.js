@@ -10,5 +10,8 @@ $(document).ready(function(){
         $(".navbar .menu").toggleClass(".active");
         $(".menu-btn i").toggleClass(".active");
     });
+    $('.nav .manu li a').click(function(){
+        $('html').css("scrillBehavior","smooth");
+    })
 
 })
